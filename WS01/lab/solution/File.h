@@ -5,8 +5,6 @@
 
 namespace sdds {
 
-    FILE* fptr;
-
     bool openFile(const char filename[]);
     void closeFile();
     bool readTitle(char title[]);

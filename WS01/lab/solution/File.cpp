@@ -1,6 +1,9 @@
 #include "File.h"
+#include <cstdio>
 
 namespace sdds {
+
+    FILE* fptr;
 
     // opens the data file and returns true is successful
     bool openFile(const char filename[]) {
