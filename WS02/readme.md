@@ -183,7 +183,7 @@ fscanf(fp, "%60[^\n]\n", ......
 ```
 2. **read** function for the user_id, dayofyear, Fwifitime and Fctime  :<br />
 When success, returns a reference argument to an integer to pass back the user id, dayofyear,Fwifitime and Fctime.
-Use the following fscanf function to read the student number from the file and return true if it returns 1.  
+Use the following fscanf function to read the user_id, dayofyear, Fwifitime and Fctime from the file and return true if it returns 1.  
 ```C
 fscanf(fp, "%d,".......
 ```
