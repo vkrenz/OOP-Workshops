@@ -1,3 +1,13 @@
+/**
+ * I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+ * 
+ * Name: Victor Krenzel
+ * Stu. Id: 102446176
+ * Email: vkrenzel@myseneca.ca
+ * Date: 01/25/2023
+ * 
+*/
+
 #include "File.h"
 #include <iostream>
 #include <fstream>
@@ -12,9 +22,10 @@ namespace sdds {
     ifstream* openFile(string fileName) {
         ifstream* file = new ifstream(fileName);
         if (!file->is_open()) {
-            cout << "Error: Could not open file: " << fileName << endl;
+            return file;
+            // cout << "Error: Could not open file: " << fileName << endl;
         }
-        cout << "Success: File: " << fileName << " opened successfully" << endl;
+        // cout << "Success: File: " << fileName << " opened successfully" << endl;
         return file;
     }
 
@@ -22,11 +33,11 @@ namespace sdds {
         vector<GPA> students;
         GPA student;
         string line;
-        while (getline(file, line)) {
+        while (file >> line) {
             istringstream iss(line);
-            char name[116];
-            int stno;
-            double studentGpa;
+            char name[116] = "";
+            int stno = 0;
+            double studentGpa = 0.0;
             iss >> name >> stno >> studentGpa;
             if ((op == '<' && studentGpa < gpa) || (op == '>' && studentGpa > gpa) || (op == '~' && studentGpa == gpa)) {
                 strcpy(student.name, name);
@@ -34,8 +45,9 @@ namespace sdds {
                 student.gpa = studentGpa;
                 students.push_back(student);
             } else if (op == '!') {
-                char response;
+                char response = 'N';
                 cout << "Exit the program? (Y)es/(N)o: ";
+                cin >> response;
                 if (response == 'Y' || response == 'y') {
                     cout << "Goodbye!";
                     exit(0);

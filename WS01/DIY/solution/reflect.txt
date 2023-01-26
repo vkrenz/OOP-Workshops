@@ -1,0 +1,14 @@
+/**
+ * I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+ * 
+ * Name: Victor Krenzel
+ * Stu. Id: 102446176
+ * Email: vkrenzel@myseneca.ca
+ * Date: 01/25/2023
+ * 
+*/
+
+The main difficulty I faced while completing this workshop is getting to understand header files better. I had an understanding of them
+going in but had a hard time understand how the puzzle pieces fit together. Completing this workshop helped me understand and grasp the
+idea much better. Overall, I just have a better understanding of modular programming and what it's purpose is. Also, namespaces was very confusing for me going in but now I understand that it’s a good practice to use especially if you’re working on a team project that would involve more than one namespace, usually involving the same functions and structs, and what not. This workshop helped me get a better understand of how to organize my code efficiently and neatly, and how to compile them individually and link them all together to run in one main file. 
+ 
