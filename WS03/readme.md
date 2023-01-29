@@ -1,5 +1,5 @@
 # Workshop #3: Member Functions and Privacy
-* Version 0.1 Submission is not open yet
+
 
 In this workshop, you will use member functions and privacy to complete your work.
 
