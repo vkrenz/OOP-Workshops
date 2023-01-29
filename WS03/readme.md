@@ -132,7 +132,7 @@ void updateBudget(double change)
 This function will update the budget of the department by adding a new change to it.
 
 ```C++
-bool Department::addProject(Project& newproject)
+bool addProject(Project& newproject)
 ```
 This function will add a new project to the department as long as the total cost does not exceed the allocated budget. If the new project cost in addition to the total cost of the current project does not exceed the budget this function will add the new project to the department list of projects by doing the following steps:
 
