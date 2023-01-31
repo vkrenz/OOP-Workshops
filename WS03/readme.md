@@ -172,7 +172,7 @@ double fetchBudget() const
 This function will return the current budget of a department.
 
 ```C++
-char* Department::fetchName() const
+char* fetchName() const
 ```
 This function will return the name of a department.
 
