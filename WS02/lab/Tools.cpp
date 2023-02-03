@@ -1,3 +1,5 @@
+// I have done all the coding by myselfand only copied the code that my professor provided to complete my workshopsand assignments.
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include "Tools.h"
@@ -23,25 +25,23 @@ namespace sdds {
 
     // To Do: read functions (4 overloaded read functions)
     
-    /*   
+      
 
-    int read(...............) {
-        return .............; 
+    int read(char package_name[]) {
+        return fscanf(fp, "%60[^\n]\n", package_name) == 1;
     }
 
-    int read(...............) {
-        return .............;
+    int read(int& int_value) {
+        return fscanf(fp, " %d,", &int_value) == 1;
     }
 
-    int read(..............) {
-        return .............;
+    int read(double& timeinhours) {
+        return fscanf(fp, " %lf", &timeinhours) == 1;
     }
 
-    int read(..............) {
-        return ............; 
+    int read(char& dayofweek) {
+        return fscanf(fp, "%[^ \t\n\r\v\f,]%*c", &dayofweek);
     }
-
-    */
 
     void closefile() { // Fully provided
         if (fp) fclose(fp);

@@ -1,0 +1,11 @@
+/** 
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+Name: Victor Krenzel
+Seneca Email: vkrenzel@myseneca.ca
+Student Id: 102446176
+Date: 02/01/2023
+*/
+
+In this workshop, I've learnt more about structs in C++, and more specifically how to use and store data from them. I learnt how to dynamically allocate memory using pointers. I implemented a couple functions to manipulate data within structs, such as EmptyRecord() which sets all the struct members to an empty state. I also implemented the read() functions which prompts the user to enter the struct data, then stores it using std::cin. I implemented the addCustomers() function which adds a struct to dynamically allocated memory, and display() function which formats and outputs struct data.
+I learnt about passing structs as references to functions. I learnt about memory management, more specifically about memory leaks, which can happen when there’s dynamically allocated memory which isn’t properly deallocated. 
+I’ve got a better grasp and a deeper understanding of structs and dynamic memory allocation. I also have a better understanding of data management and the importance of it. 
