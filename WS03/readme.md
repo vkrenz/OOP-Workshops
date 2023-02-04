@@ -1,5 +1,5 @@
 # Workshop #3: Member Functions and Privacy
-
+V(1.1) clarified and corrected the `addProject` steps
 
 In this workshop, you will use member functions and privacy to complete your work.
 
@@ -143,10 +143,10 @@ This function will add a new project to the department as long as the total cost
   - copy all projects from the old array to the new one
   - add new data to the last position of the temp array
   - wipe out the old array
+  - set old array pointer to point to where temp points
+- in both cases
   - increase the number of the project by one
-  - allocate projects with the new size
-  - copy all projects from the temp array to projects
-  - wipe out the temp array
+
 - This function will eventually return true if a project was added to the department, and false otherwise.
 
 ```C++
@@ -390,7 +390,7 @@ To have your custom Utils module compiled with your workshop and submitted, add 
 ```
 See [Custom Code Submission](#custom-code-submission) section for more detail
 
-> **⚠️Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
+> **??Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 
 # DIY (50%) 
@@ -642,5 +642,5 @@ To have your custom Utils module compiled with your workshop and submitted, add 
 ```
 See [Custom Code Submission](#custom-code-submission) section for more detail
 
-> **⚠️Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty
+> **??Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty
 
