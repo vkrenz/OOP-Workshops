@@ -1,11 +1,4 @@
-/**
-* I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
-*
-* Name: Victor Krenzel
-* Seneca Email: vkrenzel@myseneca.ca
-* Studnet Number: 102446176
-* Date: 02/03/2023
-*/
+/** SOLUTION */
 
 #ifndef SDDS_DEPARTMENT_H_
 #define SDDS_DEPARTMENT_H_
@@ -14,35 +7,35 @@ namespace sdds {
     const int MAX_TOPIC_LENGTH = 25;
 
     struct Project {
-        char m_topic[MAX_TOPIC_LENGTH + 1];
+        char m_topic[MAX_TOPIC_LENGTH+1];
         double m_cost;
     };
 
-    //class Department does here
-
-    class Department {
-        char* name = nullptr;
-        Project* projects = nullptr;
-        int num_of_projects = 0;
-        double budget = 15345.99;
+	//class Department does here
+	
+	class Department {
+        char* name;
+        Project* project;
+        int num_of_projects;
+        double budget;
     public:
         // If the provided name is valid (exists and is not empty), this function will set the name of the department. If the department is already set, it will deallocate the name. It will create enough memory for the name of the department to match the new name and then copies the data of the new name. If the new name is not valid, the department's current name will not change.
         void updateName(const char* newname);
         // This function will update the budget of the department by adding a new change to it.
         void updateBudget(double change);
-        /**
-        * This function will add a new project to the department as long as the total cost does not exceed the allocated budget. If the new project cost in addition to the total cost of the current project does not exceed the budget this function will add the new project to the department list of projects by doing the following steps:
-        * - if there are no projects currently in progress:
-        *       > creates a new Project and saves the data inside it
-        * - if there are projects currently in progress:
-        *       > allocates a temp array of projects with new size = old size + 1.
-        *       > copy all projects from the old array to the new one
-        *       > add new data to the last position of the temp array
-        *       > wipe out the old array
-        *       > set old array pointer to point to where temp points
-        * - in both cases
-        *       > increase the number of the project by one
-        * -This function will eventually return true if a project was added to the department, and false otherwise.
+        /** 
+         * This function will add a new project to the department as long as the total cost does not exceed the allocated budget. If the new project cost in addition to the total cost of the current project does not exceed the budget this function will add the new project to the department list of projects by doing the following steps:
+         * - if there are no projects currently in progress:
+         *      > creates a new Project and saves the data inside it.
+         * - if there are projects currently in progress:
+         *      > allocates a temp array of projects with new size = old size + 1.
+         *      > copy all projects from the old array to the new one
+         *      > add new data to the last position of the temp array
+         *      > wipe out the old array
+         *      > increase the number of the project by one
+         *      > allocate projects with the new size
+         *      > copy all projects from the temp array to projects
+         *      > wipe out the temp array
         */
         bool addProject(Project& newproject);
         // This function will use functions updateName, addProject and updateBudget to set the name of the department, add a project to it and update its budget.
@@ -62,10 +55,10 @@ namespace sdds {
         // This function will clear all the dynamic memory allocation in a department.
         void clearDepartment();
     };
-
-
-
-    //helper functions - do not belong inside the class
+	
+	
+	
+	//helper functions - do not belong inside the class
     void display(const Project& project);
     void display(const Department& department);
 
