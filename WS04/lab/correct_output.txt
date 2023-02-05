@@ -1,0 +1,51 @@
+-----------------------------------------------------------------
+|> T1: Checking Constructors of Soccer Team
+-----------------------------------------------------------------
+1. Invalid Team
+2. Invalid Team
+3. Invalid Team
+-----------------------------------------------------------------
+|> T2: Checking Constructors of Tournament
+-----------------------------------------------------------------
+1. Invalid Tournament
+2. Invalid Tournament
+3. Invalid Tournament
+-----------------------------------------------------------------
+|> T3: Checking valid Tournament with valid Teams
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         0
+Team[2] :North York Soccer Team        100.00     1         0
+
+
+*****First match between two Teams*****
+-----------------------------------------------------------------
+|> T4:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         1w
+Team[2] :North York Soccer Team        120.00     2         0
+
+*****Second match between two Teams*****
+-----------------------------------------------------------------
+|> T5:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         2w
+Team[2] :North York Soccer Team        144.00     4         0
+
+*****Third match between two Teams*****
+-----------------------------------------------------------------
+|> T6:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         3w
+Team[2] :Invalid Team
