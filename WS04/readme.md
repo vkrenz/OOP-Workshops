@@ -384,7 +384,7 @@ EMPTY NAMETAG!
 a function called **print** to print the name tag as shown above
 
 ### read
-a function called **read** that receives the name and then the extension number and then returns the reference of the current object (NameTag&).
+A function called **read** that receives the name and then the extension number from console and returns the reference of the current object (NameTag&).
 
 Read function should read the name up to the maximum of 40 characters and ignore the rest and then set the name of the **NameTag** to the entered name. <br />
 (This may overwrite an already existing name in the **NameTag**)<br />
