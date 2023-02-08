@@ -218,7 +218,7 @@ Returns true if **m_name** and **m_soccer** is not null and **m_num** is grater 
 Tournament& match(const SoccerTeam* ls);
 ```
 This function will find out the winner between 2 soccer teams by having matches. It will loop through all the teams. 
-- First it will check which team is having more no of fouls. 
+- First it will check which team is having more no of fouls. Do this by comparing first index of m_soccer array with second index.
 - If first team is having less fouls then second team then, second team`s no of foul will increase by double and fine will be increased by 20%
 - First team`s goal will be increased by 1. 
 - If seconds team`s no of foul exceed the MAX_FOUL then this team will become a invalid team. You can do this by setting the number to foul to an invalid value. 
