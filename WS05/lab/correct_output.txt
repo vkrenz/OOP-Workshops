@@ -1,0 +1,119 @@
+Operator <<, Operator >>, display and read test
+[ | | ]
+[ | | ]
+----------
+Broken Egg Carton!
+----------
+Broken Egg Carton!
+----------
+Broken Egg Carton!
+----------
+Broken Egg Carton!
+----------
+Broken Egg Carton!
+----------
+[O|O|O]
+[O| | ]
+----------
+[o|o|o]
+[o| | ]
+----------
+[O|O|O|O|O|O]
+[O|O|O|O| | ]
+[ | | | | | ]
+----------
+[o|o|o|o|o|o]
+[o|o|o|o| | ]
+[ | | | | | ]
+----------
+Enter the following valid values:
+ j,24,20
+>j,24,20
+[O|O|O|O|O|O]
+[O|O|O|O|O|O]
+[O|O|O|O|O|O]
+[O|O| | | | ]
+----------
+Enter the following valid values:
+ r,24,20
+>r,24,20
+[o|o|o|o|o|o]
+[o|o|o|o|o|o]
+[o|o|o|o|o|o]
+[o|o| | | | ]
+----------
+Enter the following invalid values:
+ j,44,20
+>j,44,20
+Broken Egg Carton!
+----------
+Enter the following invalid values:
+ j,24,40
+>j,24,40
+Broken Egg Carton!
+----------
+END Operator <<, Operator >>, display and read test
+
+Type Conversion operator tests
+0 Eggs:
+0.00 kgs
+---------------
+20 Eggs:
+1.50 kgs
+---------------
+20 Eggs:
+1.00 kgs
+---------------
+Bad or Broken Carton
+END Type Conversion operator tests
+
+Unary operator tests
+e1: 4
+e2: 0
+e2 = --e1;
+e1: 3
+e2: 3
+--------------------------------
+e2 = ++e1;
+e1: 4
+e2: 4
+--------------------------------
+e2 = e1--;
+e1: 3
+e2: 4
+--------------------------------
+e2 = e1++;
+e1: 4
+e2: 3
+End Unary operator tests
+
+Binary Member operator tests
+e1: 0, e2: 4, e3: 5
+e1 = e2 += e3;
+e1: 6, e2: 6, e3: 3
+bad += e3;
+bad: -1, e3: 3
+---------------------------------------------
+e1 = 20; e2 = 2;
+e1: -1, e2: 2
+e1 = 2;
+e1: -1
+---------------------------------------------
+e1 += 1; e2 += 1; e3 += 4;
+e1: -1, e2: 3, e3: -1
+---------------------------------------------
+e1: 2, e2: 3, e3: 18
+e1:
+[O|O| ]
+[ | | ]
+e2:
+[o|o|o]
+[ | | ]
+e3:
+[O|O|O|O|O|O]
+[O|O|O|O|O|O]
+[O|O|O|O|O|O]
+
+e1 is 0.15 kgs and e2 is 0.15 kgs therefore thier weights are equal
+e1 is 0.15 kgs and e3 is 1.35 kgs therefore thier weights are different
+---------------------------------------------
