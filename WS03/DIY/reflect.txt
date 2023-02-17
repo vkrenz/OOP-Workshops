@@ -1,0 +1,14 @@
+/**
+* I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*
+* Name: Victor Krenzel
+* Student Number: 102446176
+* Student Email: vkrenzel@myseneca.ca
+*
+* Date: 05/02/2023
+*
+*/
+
+
+In this workshop I have learnt about member functions and privacy and the importance of it. Member functions or methods are declared in the scope of a class or struct and utilize the data from that class or struct. Member functions prove a way to encapsulate data and the behavior of a class or struct, and use it to preform operations on that class or struct. I’ve learnt more about access specifiers such as public and private, and how they affect the class or struct data visibility. I’ve learnt more about getter and setter member functions to change the class or struct state, and how to retrieve it as well. 
+I’ve gotten for familiar with data encapsulation, which is the practice of keeping the data inside of an object hidden from everything outside it, and the interaction with the object. The reason is to maintain integrity of the data inside the object and to maintain control over what can be accesses and modified.

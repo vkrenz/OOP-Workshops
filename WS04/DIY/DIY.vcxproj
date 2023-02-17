@@ -23,10 +23,10 @@
     <ClCompile Include="NameTag.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NameTag.h" />
+    <Text Include="correct_output.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="correct_output.txt" />
+    <ClInclude Include="NameTag.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
