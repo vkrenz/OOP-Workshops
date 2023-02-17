@@ -1,5 +1,5 @@
 # Workshop #5: Member and Helper operators
-V 0.9 (due date moved one day back to give students a chance to celebrate thanksgiving day )
+V 1.0 ("Coefficient" changed to "Multiple") 
 ## Learning Outcomes
 
 Upon successful completion of this workshop, you will have demonstrated the abilities to:
@@ -115,7 +115,7 @@ The Egg Carton can be instantiated using its **size**, **the number of eggs** an
 By default, the size of the carton is **6**, the number of eggs is **0**, and the eggs are, **not jumbo size**. 
 
 When created the following validation is done on the arguments of the constructor:
-- **size** must be a coefficient of 6
+- **size** must be a multiple of 6
 - **size** must be between 6 and 36 (inclusively) 
 - **the number of eggs** should be between 0 and the **size** of the Carton (inclusively) 
 
@@ -230,7 +230,7 @@ main.cpp
 
 ### Data Entry
 
-Follow instruction in the tester program.
+Follow the instruction in the tester program.
 
 ### Submission Process:
 
@@ -275,7 +275,7 @@ A **Bus** can be instantiated using the **number of seats** and the **number of 
 By default, a bus has **20 seats** and **no passengers**. 
 
 When created the following validation is done on the arguments of the constructor:
-- **number of seats** must be a coefficient of **2**
+- **number of seats** must be a multiple of **2**
 - **number of seats** must be between **10** and **40** (inclusively) 
 - the **number of passengers** should be between **0** and the **number of seats**.
 
