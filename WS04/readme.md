@@ -218,7 +218,7 @@ Returns true if **m_name** and **m_soccer** is not null and **m_num** is grater 
 Tournament& match(const SoccerTeam* ls);
 ```
 This function will find out the winner between 2 soccer teams by having matches. It will loop through all the teams. 
-- First it will check which team is having more no of fouls. 
+- First it will check which team is having more no of fouls. Do this by comparing first index of m_soccer array with second index.
 - If first team is having less fouls then second team then, second team`s no of foul will increase by double and fine will be increased by 20%
 - First team`s goal will be increased by 1. 
 - If seconds team`s no of foul exceed the MAX_FOUL then this team will become a invalid team. You can do this by setting the number to foul to an invalid value. 
@@ -384,7 +384,7 @@ EMPTY NAMETAG!
 a function called **print** to print the name tag as shown above
 
 ### read
-a function called **read** that receives the name and then the extension number and then returns the reference of the current object (NameTag&).
+A function called **read** that receives the name and then the extension number from console and returns the reference of the current object (NameTag&).
 
 Read function should read the name up to the maximum of 40 characters and ignore the rest and then set the name of the **NameTag** to the entered name. <br />
 (This may overwrite an already existing name in the **NameTag**)<br />
@@ -486,4 +486,4 @@ To have your custom Utils module compiled with your workshop and submitted, add 
 See [Custom Code Submission](#custom-code-submission) section for more detail
 
 > **⚠️Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty
-
+ 
