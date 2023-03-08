@@ -1,0 +1,6 @@
+Name: Victor Krenzel
+Student Number: 102446176
+Student Email: vkrenzel@myseneca.ca
+Date: 02/23/2023
+
+In completing this workshop, I've got a better grasp of more c++ key concepts. Concepts such as overloading member operators, creating and defining type conversion operators, helper operators, reusing member operators. I've learnt more about defining new behaviours to existing operators (such as +,-,*,/, etc). Creating and defining type conversion operators helped me understand more how to create custom conversion rules between different types of objects. I also learnt how to create and use non-member functions that operate on objects of my class without actually being a member of that class. Basically, allowing me to further make my code more maintainable and reusable. I learnt how to reuse member operators, to make it easier to simplify the implementation of new ones.
