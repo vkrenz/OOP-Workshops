@@ -1,0 +1,6 @@
+Name: Victor Krenzel
+Student Number: 102446176
+Student Email: vkrenzel@myseneca.ca
+Date: 03/15/2023
+
+In this workshop I've learnt about some important concepts and topics which include rule of three, including copy constructors, copy assignments and destructors. I also learnt about reading and writing data to and from a text file, and resizing dynamically allocated memory and overload insertion and extraction operators to print and also read data from classes. 
