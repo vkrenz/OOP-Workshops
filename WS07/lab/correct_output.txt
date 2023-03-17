@@ -1,0 +1,122 @@
+-------------------------------
+------ New Borns: 3 Pets ------
+** Generic Pet **
+   Name: Cici; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Fish **
+   Name: Nemo; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+-------------------------------
+-------- Under Nurture --------
+** Generic Pet **
+   Name: Cici; 9 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : -0.70 (PERISHED)
+
+** Generic Fish **
+   Name: Nemo; 5 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : -0.20 (PERISHED)
+
+-------------------------------
+----------- ReSpawn -----------
+** Generic Pet **
+   Name: Cici; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.25
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $2.25
+   Health : 1.00 (Ideal)
+
+** Generic Fish **
+   Name: Nemo; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.75
+   Health : 1.00 (Ideal)
+
+-------------------------------
+---------- Over Nurture -------
+** Generic Pet **
+   Name: Cici; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.25
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $2.25
+   Health : 1.20 (Over Nurtured)
+
+** Generic Fish **
+   Name: Nemo; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.75
+   Health : 1.40 (Over Nurtured)
+
+-------------------------------
+------- Over Nurture: Dog -----
+** Generic Dog **
+   Walks: 5
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 5, 5, 0
+   Charges: $3.50
+   Health : 1.20 (Over Nurtured)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $3.50
+   Health : 2.35 (PERISHED)
+
+-------------------------------
+--------- Cloning: Dog --------
+** Generic Dog **
+   Walks: 0
+   Name: Scooby(C); 10 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $10.00
+   Health : 1.00 (Ideal)
+>> Balance of $10.00 has been paid for Scooby(C)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby(C)(C); 11 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $10.25
+   Health : 0.55 (Under Nurtured)
+
+-------------------------------
+----------- Complete ----------
+
+D:\Users\phard\Documents\Seneca\oop244\DEV\Workshops\WS07\lab\x64\Debug\lab.exe (process 3356) exited with code 0.
+Press any key to close this window . . .
