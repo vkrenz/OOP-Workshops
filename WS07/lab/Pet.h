@@ -47,9 +47,17 @@ namespace sdds
 		int getGrooms();
 		int getHugs();
 
+		double getCostBase() const;
+		double getCostFeed() const;
+		double getCostRevive() const;
+		double getHealth() const;
+
+		void setHealth(double health);
+
 	public:
 		Pet();
 		Pet(const char* name, int age = 0, double incrBaseCharge = 0);
+
 
 		void feed();
 		void groom();
@@ -60,7 +68,7 @@ namespace sdds
 
 		void operator++ (int num);			// Increment 1 Day
 		Pet& operator=(const Pet& rhs);		// Clone the Pet
-		std::ostream& outputData(std::ostream& os);
+		std::ostream& outputData(std::ostream& os) const;
 	};
 	std::ostream& operator<<(std::ostream& os, Pet& pet);
 }

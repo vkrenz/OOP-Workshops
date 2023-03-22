@@ -47,6 +47,26 @@ namespace sdds
 		m_healthLvl = 1.0;	// Born with perfect health
 	}
 
+	double Pet::getCostBase() const {
+		return this->COST_BASE;
+	}
+
+	double Pet::getCostFeed() const {
+		return this->COST_FEED;
+	}
+
+	double Pet::getCostRevive() const {
+		return this->COST_REVIVE;
+	}
+
+	double Pet::getHealth() const {
+		return this->m_healthLvl;
+	}
+
+	void Pet::setHealth(double health) {
+		this->m_healthLvl = health;
+	}
+
 	void Pet::feed()
 	{
 		if (isAlive())
@@ -80,7 +100,7 @@ namespace sdds
 		return m_numHugs;
 	}
 
-	ostream& Pet::outputData(std::ostream& os) 
+	ostream& Pet::outputData(std::ostream& os)  const
 	{
 		// Display class members
 		os << "   Name: " << m_Name << "; " << m_age << " days old" << endl;
