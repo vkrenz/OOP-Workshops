@@ -1,0 +1,30 @@
+Nothing should be printed between these two lines
+------------------------------------
+------------------------------------
+Valid Videos: 
+------------------------------------
+VRVideo requires Head set
+Video Length = 200
+Animation is in 3-D
+Video Length = 100
+------------------------------------
+Enter the following:
+>120,Oculus Quest 2
+>120,Oculus Quest 2
+The following outputs should be the same
+The correct output:
+VRVideo requires Oculus Quest 2
+Video Length = 120
+Your output:
+VRVideo requires Oculus Quest 2
+Video Length = 120
+Enter the following:
+>500,3
+>500,3
+The following outputs should be the same
+The correct output:
+Animation is in 3-D
+Video length = 500
+Your output:
+Animation is in 3-D
+Video Length = 500
